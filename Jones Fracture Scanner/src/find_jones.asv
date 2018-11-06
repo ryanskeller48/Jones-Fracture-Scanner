@@ -1,0 +1,7 @@
+function [ jones ] = find_jones( basetoe, basefoot )
+    distance = pow((basetoe(1) - basefoot(1)), 2) + pow((basetoe(2) - basefoot(2), 2);
+    angle = asind(distance/(basefoot(2)-basetoe(2)));
+    
+
+end
+
